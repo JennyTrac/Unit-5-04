@@ -1,0 +1,126 @@
+[
+  {
+    "class" : "View",
+    "attributes" : {
+      "background_color" : "RGBA(1.000000,1.000000,1.000000,1.000000)",
+      "tint_color" : "RGBA(0.000000,0.478000,1.000000,1.000000)",
+      "enabled" : true,
+      "border_color" : "RGBA(0.000000,0.000000,0.000000,1.000000)",
+      "flex" : ""
+    },
+    "frame" : "{{0, 0}, {540, 540}}",
+    "selected" : false,
+    "nodes" : [
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "Enter marks one by one:",
+          "font_name" : "<System>",
+          "name" : "instruction1_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "5846DF58-B08B-431E-8773-070C43D9572E"
+        },
+        "frame" : "{{6, 18}, {214, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextField",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "autocorrection_type" : "default",
+          "name" : "input_textfield",
+          "class" : "TextField",
+          "alignment" : "left",
+          "frame" : "{{170, 254}, {200, 32}}",
+          "spellchecking_type" : "default",
+          "uuid" : "11805889-AB79-4E60-A884-8041B0636514"
+        },
+        "frame" : "{{228, 18}, {200, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Enter",
+          "name" : "enter_button",
+          "action" : "enter_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "uuid" : "4251A0A9-6D14-40B6-ADFD-451438F8AA91"
+        },
+        "frame" : "{{436, 18}, {98, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Button",
+        "attributes" : {
+          "font_size" : 15,
+          "title" : "Calculate Average",
+          "name" : "calcule_button",
+          "action" : "calculate_average_touch_up_inside",
+          "class" : "Button",
+          "frame" : "{{230, 254}, {80, 32}}",
+          "uuid" : "C1402E75-BA06-494F-96D3-DE038676FBCA"
+        },
+        "frame" : "{{207, 58}, {132, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "Label",
+        "attributes" : {
+          "font_size" : 18,
+          "text" : "",
+          "font_name" : "<System>",
+          "name" : "average_label",
+          "class" : "Label",
+          "alignment" : "left",
+          "frame" : "{{195, 254}, {150, 32}}",
+          "uuid" : "1B505404-145F-4159-AE84-1CBB7D5EAAEB"
+        },
+        "frame" : "{{207, 98}, {327, 32}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      },
+      {
+        "class" : "TextView",
+        "attributes" : {
+          "font_size" : 17,
+          "font_name" : "<System>",
+          "flex" : "WH",
+          "autocorrection_type" : "default",
+          "name" : "marks_textview",
+          "spellchecking_type" : "default",
+          "class" : "TextView",
+          "alignment" : "left",
+          "frame" : "{{170, 170}, {200, 200}}",
+          "editable" : true,
+          "uuid" : "97B1A15A-A6FD-4551-9174-F8716EBA95F1"
+        },
+        "frame" : "{{6, 98}, {193, 436}}",
+        "selected" : false,
+        "nodes" : [
+
+        ]
+      }
+    ]
+  }
+]
